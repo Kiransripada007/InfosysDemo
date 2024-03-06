@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demoInfy
+    username: postgres
+    password: Kiran@2001
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+#  gmail smtp configurations
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    protocol: smtp
+    username: sreeyamunajyothi@gmail.com
+    password: txpmodifttjxljlr
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
